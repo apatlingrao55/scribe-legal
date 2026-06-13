@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — Scribe</title>
+  <meta name="robots" content="index, follow" />
+  <style>
+    :root {
+      --bg: #faf8f3; --surface: #fffdf8; --text: #1a1612; --muted: #6b5e4e;
+      --accent: #8b5e3c; --gold: #c8922a; --border: #ddd5c5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font-family: Georgia, 'Times New Roman', serif; line-height: 1.65;
+      -webkit-text-size-adjust: 100%;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+    header { border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 28px; }
+    h1 { font-size: 1.9rem; margin: 0 0 6px; }
+    h2 { font-size: 1.2rem; margin: 34px 0 10px; color: var(--accent); }
+    .eff { color: var(--muted); font-size: 0.92rem; margin: 0; }
+    p, li { font-size: 1.02rem; }
+    a { color: var(--accent); }
+    .contact {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+      padding: 16px 20px; margin: 0 0 8px;
+    }
+    .contact a { font-weight: bold; }
+    .faq { margin-top: 8px; }
+    .q { font-weight: bold; margin: 22px 0 4px; }
+    footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem; }
+    .nav { margin-top: 8px; }
+    .nav a { margin-right: 16px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Scribe Support</h1>
+      <p class="eff">Selah AI Consulting Limited (New Zealand)</p>
+    </header>
+
+    <p class="contact">
+      Need help? Email <a href="mailto:dev@aiconsult.co.nz">dev@aiconsult.co.nz</a>.
+      We usually reply within a few business days.
+    </p>
+
+    <div class="faq">
+      <h2>Frequently asked questions</h2>
+
+      <p class="q">How do I restore my Scholar purchase?</p>
+      <p>
+        Open the app, go to Settings, and choose <em>Restore Purchases</em>. Your Scholar unlock is
+        tied to your Apple ID, so it restores on any device signed in with the same account.
+      </p>
+
+      <p class="q">How does the AI Research feature work?</p>
+      <p>
+        AI Research is part of Scholar. You supply your own API key from Anthropic or OpenRouter,
+        and your questions are sent directly from your device to that provider using your key.
+        Scribe doesn't run a server in between or store your requests. See our
+        <a href="../privacy/">Privacy Policy</a> for details.
+      </p>
+
+      <p class="q">Is my reading data backed up?</p>
+      <p>
+        Bookmarks, highlights, and your reading position are stored on your device only. They are
+        not synced to a server, so reinstalling the app or switching devices starts fresh.
+      </p>
+
+      <p class="q">Which devices are supported?</p>
+      <p>
+        Scribe runs on iPhone and iPad (and Android). For the best experience, keep the app updated
+        to the latest version from the App Store.
+      </p>
+    </div>
+
+    <footer>
+      © 2026 Selah AI Consulting Limited.
+      <div class="nav">
+        <a href="../privacy/">Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
